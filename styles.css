@@ -1,0 +1,69 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image:url(https://disenowebakus.net/imagenes/servicios-web/diseno-de-paginas-web/servicios-de-diseno-web.jpg);
+}
+.main{
+    /* background-image:url(https://disenowebakus.net/imagenes/servicios-web/diseno-de-paginas-web/servicios-de-diseno-web.jpg); */
+    color: rgb(252, 235, 6);
+    width: 100%;
+    /* height: 100vh; */
+    /* position: absolute; */
+    text-align: center;
+    
+    
+}
+/* .main,img{
+    filter: opacity(0.7);
+    object-fit: cover;
+    height: 100vh;
+    
+} */
+
+.container{
+    color: black;
+    font-weight: bold;
+}
+
+.sobreMi{
+    animation-duration: 3s;
+    animation-name: slidein;
+    
+}
+.sobreMi p, .redes a{
+    color: rgb(252, 235, 6);
+    
+}
+.respuesta{
+  color: rgb(252, 235, 6);;
+}
+
+/* .foto{
+    width: 50%;
+    height: 50%;
+    margin-left: -50%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+   
+} */
+
+.container form, h2{
+  color: rgb(252, 235, 6);
+}
+
+
+  
+ 
+  
+  @keyframes slidein {
+    from {
+      margin-left: 100%;
+      width: 300%
+    }
+  
+    to {
+      margin-left: 0%;
+      width: 100%;
+    }
+  }
+
