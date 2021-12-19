@@ -1,7 +1,3 @@
-
-
-
-
 function mostrarNombreCompleto(event){
     event.preventDefault();
     var nombre = document.getElementById("usr").value;
